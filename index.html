@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Rubik+Iso&display=swap" 
+        rel="stylesheet">
+        <title>Analitics</title>
+    </head>
+    <body>
+        <main>
+            <!-- We created semantic elements for our page  -->
+            <header class="main_header" id="header">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+                <a class="logo" href="#">Logo</a> 
+            </header>
+            <!-- This side also finished -->
+
+            <aside class="fixed_side" id="fix">
+                
+            <div class="logo_green">
+                <img class="green_logo" src="https://www.w3schools.com/w3images/avatar2.png" alt="green_logo">
+                <span>Welcome, <b> Gevorg </b></span>
+                <div class="green_logo_i" >
+                    <a class="envelop" href=""><i class="fa-solid fa-envelope"></i></a>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                    <a href=""><i class="fa-sharp fa-solid fa-gear"></i></a>
+                </div>
+            </div>
+
+            <!-- Make a dishboard list -->
+            
+        <div class="dashboard" >
+            <p>Dashboard</p>
+            <ul class="dashboard_lists" >
+                <li><a class="user" href=""><i class="fa-solid fa-users"></i> Overview</a></li>
+                <li><a href="#"><i class="fa-solid fa-eye"></i> Views</a></li>
+                <li><a href="#"><i class="fa-solid fa-users"></i>   Traffic</a></li>
+                <li><a href="#"><i class="fa-sharp fa-solid fa-bullseye"></i>Geo</a></li>
+                <li><a href="#"><i class="fa-sharp fa-regular fa-gem"></i>Orders</a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i>News</a></li>
+                <li><a href="#"><i class="fa-sharp fa-solid fa-building-columns"></i>General</a></li>
+                <li><a href="#"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i>History</a></li>
+                <li><a href="#"><i class="fa-sharp fa-solid fa-gear"></i>Setting</a></li>
+        
+            </ul>
+        </div>
+            </aside>
+            <article class="article_side" id="article">
+                <!-- This side also about article and general side -->
+                <p class="dash" ><i class="fa-solid fa-gauge"></i>My Dashboard</p>
+            <div class="dashboard_grid" >
+                <div class="box1 red">
+                    <i class="fa-solid fa-comment">  <span>52</span> </i>
+                    <p>Messages</p>
+                  
+              </div>
+                <div class="box1 blue">
+                    <i class="fa-solid fa-eye"> <span>99</span></i>
+                    <p>Views</p>
+                   
+                </div>
+                <div class="box1 green">
+                    <i class="fa-solid fa-share-nodes"><span>23</span></i>
+                    <p>Shares</p>
+                    
+                </div>
+                <div class="box1 orange">
+                    <i class="fa-solid fa-users"> <span>50</span></i>
+                    <p>Users</p>
+                   
+                </div>
+            </div>
+            <div class="region" >
+                <h2 class="regions" >Regions</h2> 
+                
+        <div class="img_table" >
+          
+                <img  src="https://www.w3schools.com/w3images/region.jpg" alt="">
+                <div class="feeds_i">
+                    <!-- <h2 class="feed">Feeds</h2> -->
+                <ul class="feeds" >
+
+                    <li class="tenmin"><i class="fa-solid fa-user"></i><span class="new" > New record, over 90 views. </span>  <span> 10 mins </span> </li>
+                    <li><i class="fa-solid fa-bell"></i> <span> Database error.</span>  <span> 15 mins </span></li>
+                    <li class="tenmin"><i class="fa-solid fa-users"></i> <span> New record, over 40 users. </span> <span> 17 mins </span></li>
+                    <li><i class="fa-solid fa-comment"></i> <span> New comments. </span> <span> 25 mins </span></li>
+                    <li class="tenmin"><i class="fa-solid fa-bookmark"></i> <span> Check transactions. </span> <span> 28 mins </span></li>
+                    <li> <i class="fa-solid fa-laptop"></i> <span>	CPU overload. </span> <span> 35 mins </span></li>
+                    <li class="tenmin"><i class="fa-solid fa-share"></i> <span> New shares. </span>  <span> 39 mins </span></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+            <!-- Now we create brogress bar about visitors ,users  -->
+        <div class="stats" >
+          <h2>General Stats</h2>
+          <p  >New Visitors</p>
+          <div class="visitor">
+            <p class="new_visi prog" >+25%</p>
+          </div>
+          <p>New Users</p>
+          <div class="visitor">
+            <p class=" new_users prog" >50%</p>
+          </div>
+          <p>Bounce Rate</p>
+          <div class="visitor">
+            <p class="bounce  prog">75%</p>
+          </div>
+          <!-- There we are finished and next one -->
+        </div>
+            <!-- With table elements we create countries side -->
+        <div class="countries">
+            <h2>Countries</h2>
+            <table cellspacing = "0" >
+                <tr class="usa" >
+                    <td class="first">United States</td>
+                    <td class="second" >65%</td>
+                </tr>
+                <tr>
+                    <td class="first">UK</td>
+                    <td class="second">	15.7% </td>
+                </tr>
+                <tr class="usa">
+                    <td class="first">Russia</td>
+                    <td class="second">5.6%</td>
+                </tr>
+                <tr>
+                    <td class="first">Spain</td>
+                    <td class="second">	2.1%</td>
+                </tr>
+                <tr class="usa">
+                    <td class="first">India</td>
+                    <td class="second"> 1.9%</td>
+                </tr>
+                <tr>
+                    <td class="first">France</td>
+                    <td class="second">1.5%</td>
+                </tr>
+            </table>
+        <div class="more" >
+            <a href="">More Countries 
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <!-- This side about recent users we create with ul lists -->
+        <div class="recent">
+            <h2>Recent Users</h2>
+            <ul class="recent_user">
+                <div class="rec">
+                <li><img class="img" src="https://www.w3schools.com/w3images/avatar2.png" alt=""> <span>MIke</span></li>
+                <li><img class="img" src="https://www.w3schools.com/w3images/avatar5.png" alt=""> <span>Jill</span></li>
+                <li><img class="img" src="https://www.w3schools.com/w3images/avatar6.png" alt=""> <span>Jane</span></li>
+            </div>
+            </ul>
+        </div>
+        <div class="comment" >
+        <h2>Recent Comments</h2>
+           <div class="recent_coment">
+            <img src="https://www.w3schools.com/w3images/avatar3.png" alt="">
+            <ul>
+                <li>  <p> <span class="john"> John </span> <span class="sep"> Sep 29, 2014, 9:12 PM </span></p></li>
+                <li>  <p >Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li>
+            </ul>
+            
+            </div>
+            <div class="recent_coment">
+                <img src="https://www.w3schools.com/w3images/avatar1.png" alt="">
+                <ul>
+                    <li>  <p> <span class="john"> Bo </span> <span class="sep"> Sep 28, 2014, 10:15 PM </span></p></li>
+                    <li>  <p >Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li>
+                </ul>
+                
+                </div>
+            </div>
+    </div>
+    <!-- We finished this side -->
+   
+        </div>
+        <div class="demo" >
+            <ul>
+                <li><span class="demogra " > Demographic </span></li>
+                <li>Language</li>
+                <li>Country</li>
+                <li>City</li>
+            </ul>
+            <ul>
+                <li><span class="system"> System </span></li>
+                <li>Browser</li>
+                <li>OS</li> 
+                <li>More</li>
+            </ul>
+            <ul>
+                <li><span class="target" > Target </span></li>
+                <li>Users</li>
+                <li>Active</li>
+                <li>Geo</li>
+                <li>Interests</li>
+            </ul>
+        </div>
+            </article>
+            <footer class="footer_side" id="footer">
+                <h2>FOOTER</h2>
+                <p>Powered by <a href="">w3.css</a> </p>
+            </footer>
+        </main>
+        <script src="app.js"></script>
+    </body>
+</html>
